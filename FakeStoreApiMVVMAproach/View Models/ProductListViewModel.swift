@@ -38,7 +38,8 @@ class ProductListViewModel: ObservableObject {
 
 //In order to display something on the screen using the MVVM approach we will need to change this product into something suitable for the screen. So lets create product view model below
 
-struct ProductViewModel {
+//We use Identifiable so that each row can be identified unique by swifui.
+struct ProductViewModel : Identifiable {
     
    private let product: Product
     
