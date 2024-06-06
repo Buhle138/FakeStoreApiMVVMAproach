@@ -12,6 +12,7 @@
 		9461EE072C1193E500669FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461EE062C1193E500669FBF /* Assets.xcassets */; };
 		9461EE0A2C1193E500669FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461EE092C1193E500669FBF /* Preview Assets.xcassets */; };
 		9461EE122C11947800669FBF /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461EE112C11947800669FBF /* Webservice.swift */; };
+		9461EE152C1195D900669FBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461EE142C1195D900669FBF /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9461EE062C1193E500669FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9461EE092C1193E500669FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9461EE112C11947800669FBF /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		9461EE142C1195D900669FBF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		9461EE012C1193E400669FBF /* FakeStoreApiMVVMAproach */ = {
 			isa = PBXGroup;
 			children = (
+				9461EE132C1195B800669FBF /* Models */,
 				9461EE102C11945100669FBF /* Services */,
 				9461EE022C1193E400669FBF /* FakeStoreApiMVVMAproachApp.swift */,
 				9461EE042C1193E400669FBF /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				9461EE112C11947800669FBF /* Webservice.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9461EE132C1195B800669FBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9461EE142C1195D900669FBF /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9461EE052C1193E400669FBF /* ContentView.swift in Sources */,
+				9461EE152C1195D900669FBF /* Product.swift in Sources */,
 				9461EE032C1193E400669FBF /* FakeStoreApiMVVMAproachApp.swift in Sources */,
 				9461EE122C11947800669FBF /* Webservice.swift in Sources */,
 			);

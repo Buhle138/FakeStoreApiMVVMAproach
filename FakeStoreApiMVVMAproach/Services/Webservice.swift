@@ -8,3 +8,11 @@
 import Foundation
 
 //This web service wil be responsible for getting the data
+
+class Webservice{
+    
+    func getProducts() -> [Product]{
+        
+    }
+    
+}
